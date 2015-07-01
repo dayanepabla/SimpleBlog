@@ -1,0 +1,29 @@
+{
+  "name": "enseadadogostoso",
+  "version": "1.0.0",
+  "description": "Pousada Enseada do Gostoso",
+  "main": "index.html",
+  "devDependencies": {
+    "browser-sync": "^2.6.9",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-cache": "^0.2.9",
+    "gulp-concat": "^2.5.2",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-minify-css": "^1.1.0",
+    "gulp-minify-html": "^1.0.2",
+    "gulp-strip-debug": "^1.0.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dayanepabla/SimpleBlog.git"
+  },
+  "author": "Dayane Pabla",
+  "license": "ISC"
+}
+n
