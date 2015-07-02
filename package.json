@@ -1,7 +1,7 @@
 {
-  "name": "enseadadogostoso",
+  "name": "SimpleBlog",
   "version": "1.0.0",
-  "description": "Pousada Enseada do Gostoso",
+  "description": "SimpleBlog",
   "main": "index.html",
   "devDependencies": {
     "browser-sync": "^2.6.9",
@@ -26,4 +26,3 @@
   "author": "Dayane Pabla",
   "license": "ISC"
 }
-n
