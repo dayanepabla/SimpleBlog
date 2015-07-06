@@ -41,7 +41,7 @@ gulp.task('styles', function() {
   var destPath = paths.build + '/css';
 
   return gulp.src(paths.styles)
-             .pipe($.concat('site.css'))
+             .pipe($.concat('blog.css'))
              .pipe($.minifyCss())
              .pipe(gulp.dest(destPath));
 });
@@ -50,7 +50,7 @@ gulp.task('scripts', function() {
   var destPath = paths.build + '/js';
 
   return gulp.src(paths.scripts)
-             .pipe($.concat('site.js'))
+             .pipe($.concat('blog.js'))
              .pipe($.stripDebug())
              .pipe($.uglify())
              .pipe(gulp.dest(destPath));
